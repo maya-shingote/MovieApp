@@ -1,0 +1,51 @@
+body{
+    font-size: 1.5rem;
+    font-family:sans-serif ,Nunito ;
+    position: relative;
+}
+
+
+#app{
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+header{
+    position: relative;
+    z-index: 226;
+    width: 100%;
+    transition: all .5s ease-out;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+    transition-property: all;
+    background: #0f2133;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(15, 33, 51);
+    border-bottom: 3px solid transparent;
+    display: flex;
+    justify-content: flex-start;
+    min-height: 74px;
+    align-items: center;
+}
+
+@media (max-width: 767px)
+.container {
+    max-width: 100%;
+    width: 100%;
+}
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
